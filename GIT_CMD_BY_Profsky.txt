@@ -1,0 +1,49 @@
+---------------------------------------------------
+Git Bash Tereminal 명령어 LIST
+---------------------------------------------------
+Temp Update
+
+start . #현재 경로의 폴더 탐색기 열기
+
+git init = 현재 폴터 깃 활성화
+ls = 현재 폴더 내 파일 표시
+ls -a = 현재 폴더 모든 파일 표시(숨긴항목 포함)
+
+git log = 변경 정보 확인
+
+
+clear = 화면 정리
+pwd = 현재 작업 경로 표시
+
+touch NewFile.txt = 새파일 만들기
+
+파일 삭제
+rm file.txt
+폴더 삭제
+rm -rf FolderName
+
+
+The Basic Git Workflow
+1. Work On Stuff
+	Make new files, edit files, delete files, etc
+2. Add Changes
+	Group specific changes together, in preparation of committing
+3. Commit
+	Commit everything that was previously added
+	
+git status
+git add XXX.txt YYY.py
+git add . = 모든 파일 등록
+git commit -m "Meassage Here"
+
+git push Origin master = GIT Upload
+
+git config --global user.name "profsky"
+git config --global user.email "profsky@naver.com"
+
+#원격 저장소에 커밋 올리기
+git remote add origin https://github.com/profsky/EPLAN.git
+git push origin master
+
+브랜치 테스트
+브랜치 2차 추가
